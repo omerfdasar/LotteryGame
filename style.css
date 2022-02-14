@@ -1,0 +1,7 @@
+body {
+  background-color: bisque;
+  display: flex;
+}
+.container {
+  margin: 100px auto;
+}
