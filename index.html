@@ -9,9 +9,20 @@
   </head>
   <body>
     <div class="container">
-      <input type="number" id="input" />
-      <button type="button" id="button">Lucky Numbers</button>
-      <p id="display"></p>
+      <div id="description">
+        <h2>Lottery Game</h2>
+        <p id="descriptionPara">
+          The lottery starts by choosing 6 numbers from 1 to 90.
+        </p>
+        <p>1 joker  and 1 superstar  are determined.</p>
+        <p>The 7th digit is the joker number.</p>
+        <p>The 8th digit is the superstar number.</p>
+      </div>
+      <div class="main">
+        <input type="number" id="input" />
+        <button type="button" id="button" class="button-21" role="button">Lucky Numbers</button>
+      </div>
+      <div id="display"></div>
     </div>
 
     <script src="./app.js"></script>
